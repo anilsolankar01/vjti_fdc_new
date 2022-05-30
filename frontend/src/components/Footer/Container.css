@@ -1,0 +1,147 @@
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *::before, *::after {
+
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    font-family: "Poppins",Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: normal;
+    margin: 0;
+
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+.footer-10 .border-top, .footer-10 .border-bottom {
+    border-color: rgba(255,255,255,.1)!important;
+}
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+
+.col-md-6, .col-lg-8
+{
+    
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+   
+
+
+
+}
+
+
+
+
+
+.footer-10 p {
+    color: rgba(255,255,255,.3);
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (min-width: 1200px)
+{
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .container {
+        max-width: 720px;
+}
+}
+@media (min-width: 576px)
+{
+    .container {
+        max-width: 1000px;
+    }
+}
+
+
+
+@media (min-width: 768px)
+{
+.mb-md-0, .my-md-0 {
+    margin-bottom: 0!important;
+}
+
+}
+
+@media (min-width: 992px)
+{
+.col-lg-8 {
+    -webkit-box-flex: 0;
+
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+}
+
+@media (min-width: 768px)
+{
+    .col-md-6 {
+
+    -ms-flex: 0 0 50%;
+
+}}

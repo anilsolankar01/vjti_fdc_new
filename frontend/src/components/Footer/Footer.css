@@ -1,0 +1,35 @@
+.footer-10 {
+    background: #222;
+    padding: 0 0 4em 0;
+
+
+  
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, *::before, *::after {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins",Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+.fixed-bottom{
+
+background-color: pink;
+
+}
